@@ -1,3 +1,5 @@
+# NOTE THAT FOR CLOSENNESS CENTRALITY METRIC, THE WEIGHTS HAVE TO BEEN INVERTED BECAUSE WE USE THE DEEP FIRST BREADTH ALGORITHM WITH WEIGHTS. 
+# THEN FOR THIS METRICS LOWE VALUE INDICATES HIGHER SAFETY.
 from pathlib import Path
 from ipyleaflet import Map, LayersControl, LayerGroup, Polygon, GeoJSON, LegendControl, FullScreenControl, basemaps, basemap_to_tiles
 from ipywidgets.embed import embed_minimal_html
